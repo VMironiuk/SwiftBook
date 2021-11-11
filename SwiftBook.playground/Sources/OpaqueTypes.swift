@@ -16,6 +16,8 @@ struct Triangle: Shape {
     }
 }
 
+// TODO: add a text
+
 struct FlippedShape<T: Shape>: Shape {
     let shape: T
 
