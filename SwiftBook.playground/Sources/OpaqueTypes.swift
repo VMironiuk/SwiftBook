@@ -1,3 +1,5 @@
+// TODO: add a text
+
 import Foundation
 
 protocol Shape {
@@ -15,8 +17,6 @@ struct Triangle: Shape {
         return result.joined(separator: "\n")
     }
 }
-
-// TODO: add a text
 
 struct FlippedShape<T: Shape>: Shape {
     let shape: T
